@@ -1,0 +1,530 @@
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <title>HTML Template</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <style>
+    body {
+      width: 100% !important;
+      -webkit-text-size-adjust: 100%;
+      -ms-text-size-adjust: 100%;
+      margin: 0;
+      padding: 0;
+      line-height: 100%;
+    }
+
+    [style*="arial"] {
+      font-family: arial, 'Open Sans', sans-serif !important;
+    }
+
+    img {
+      outline: none;
+      text-decoration: none;
+      border: none;
+      -ms-interpolation-mode: bicubic;
+      max-width: 100% !important;
+      margin: 0;
+      padding: 0;
+      display: block;
+    }
+
+    table td {
+      border-collapse: collapse;
+    }
+
+    table {
+      border-collapse: collapse;
+      mso-table-lspace: 0pt;
+      mso-table-rspace: 0pt;
+    }
+
+
+    .container {
+      margin: 0 auto;
+      padding: 0 40px;
+    }
+
+
+    .pt-26 {
+      padding-top: 26px;
+    }
+
+    .pb-13 {
+      padding-bottom: 13px;
+    }
+
+    .pb-26 {
+      padding-bottom: 26px;
+    }
+
+    .pb-10 {
+      padding-bottom: 10px;
+    }
+
+
+    .pb-31 {
+      padding-bottom: 31px;
+    }
+
+    .pt-19 {
+      padding-top: 19px;
+    }
+
+    .pt-29 {
+      padding-top: 29px;
+    }
+
+    .pb-49 {
+      padding-bottom: 49px;
+    }
+
+    .pr-40 {
+      padding-right: 40px;
+    }
+
+    .title {
+      margin: 0;
+      font-style: normal;
+      font-size: 20px;
+      font-weight: 700;
+      line-height: 24px;
+      text-align: left;
+      color: rgba(81, 81, 81, 1);
+      padding-top: 32px;
+      padding-bottom: 13px;
+    }
+
+    .text {
+      margin: 0;
+      font-family: Arial;
+      font-size: 12px;
+      font-weight: 400;
+      line-height: 24px;
+      color: rgba(81, 81, 81, 1);
+    }
+
+    .text-second {
+      padding-bottom: 37px;
+    }
+
+    .artists-title {
+      margin: 0;
+      font-family: Arial;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 24px;
+      text-align: left;
+      color: rgba(255, 255, 255, 1);
+      padding-bottom: 21px;
+      padding-top: 19px;
+    }
+
+    .artist-name {
+      margin: 0;
+      font-family: Arial;
+      font-size: 12px;
+      font-weight: 700;
+      line-height: 24px;
+      color: rgba(255, 255, 255, 1);
+    }
+
+    .artist-pic {
+      padding-bottom: 21px;
+    }
+
+    .artist-text {
+      margin: 0;
+      font-family: Arial;
+      font-size: 12px;
+      font-weight: 400;
+      line-height: 18px;
+      color: rgba(255, 255, 255, 1);
+      padding-bottom: 21px;
+    }
+
+
+
+    .not-all {
+      margin: 0;
+      font-family: Arial;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 24px;
+      color: rgba(81, 81, 81, 1);
+      padding-top: 34px;
+      padding-bottom: 10px;
+    }
+
+    .descr {
+      margin: 0;
+      font-family: Arial;
+      font-size: 12px;
+      font-weight: 400;
+      line-height: 18px;
+      color: rgba(81, 81, 81, 1);
+    }
+
+
+
+    .block {
+      vertical-align: top;
+    }
+
+
+
+    .logo {
+      padding-bottom: 30px;
+      padding-top: 30px;
+    }
+
+    .btn {
+      color: rgba(255, 255, 255, 1);
+      background-color: rgba(157, 92, 208, 1);
+      padding: 13px 34px;
+      border-radius: 48px;
+      font-family: Arial;
+      font-size: 14px;
+      font-weight: 700;
+    }
+
+    .footer-text {
+      margin: 0;
+      font-family: Arial;
+      font-size: 12px;
+      font-weight: 400;
+      line-height: 24px;
+      text-align: center;
+      color: rgba(117, 117, 117, 1);
+    }
+
+    .footer-descr {
+      margin: 0;
+      font-family: Arial;
+      font-size: 10px;
+      font-weight: 400;
+      line-height: 24px;
+      text-align: center;
+      color: rgba(117, 117, 117, 1);
+    }
+
+    .link {
+      color: rgba(157, 92, 208, 1);
+    }
+
+    .breake {
+      padding-bottom: 11px;
+    }
+
+    .footer-img {
+      padding-right: 20px;
+    }
+
+    @media (max-width: 850px) {
+      .table-600 {
+        width: 280px !important;
+      }
+
+      .container {
+        padding: 0 18px;
+      }
+
+      .hero-pic {
+        height: 300px;
+      }
+
+      .logo {
+        width: 114px;
+        padding-bottom: 18px;
+        padding-top: 17px
+      }
+
+
+      .text-second {
+        padding-bottom: 32px;
+      }
+
+      .artist-pic {
+        width: 244px;
+        height: 84px;
+        padding-bottom: 10px;
+      }
+
+      .artist-name {
+        padding-bottom: 2px;
+      }
+
+      .artist-text {
+        padding-right: 20px;
+      }
+
+      .block {
+        display: inline-block;
+        padding-right: 0;
+        margin-bottom: 20px;
+      }
+
+      .block:last-child {
+        margin-bottom: 48px;
+      }
+
+      .footer-mb {
+        padding-top: 26px;
+        padding-bottom: 10px;
+      }
+
+    }
+  </style>
+</head>
+
+<body style="margin: 0; padding: 0;">
+  <div style="font-size:0px;font-color:#ffffff;opacity:0;visibility:hidden;width:0;height:0;display:none;">Тестовое
+    письмо</div>
+  <table cellpadding="0" cellspacing="0" class="table-600" width="600" bgcolor="#ffffff" align="center">
+    <tr>
+      <td align="center">
+        <table class="table-600" cellpadding="0" cellspacing="0" width="600" bgcolor="#000">
+          <tr>
+            <td align="center">
+              <img class="logo" src="https://i.postimg.cc/5YxL9jWQ/logo.png"
+                alt="Логотип художественной галлереи Blanchard">
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <picture>
+                <source media="(max-width: 850px)" srcset="https://i.postimg.cc/NGkFQ3Rj/Rectangle-6.png">
+                <img class="hero-pic" src="https://i.postimg.cc/28Gx2Yxs/hero.png" alt="Изображение">
+              </picture>
+            </td>
+          </tr>
+        </table>
+        <table cellpadding="0" cellspacing="0" class="table-600" width="600" bgcolor="#ffffff">
+          <tr>
+            <td class="pt-32 container">
+              <h1 class="title" style="font-family: arial, 'Open Sans', sans-serif;">
+                Торжество импрессионизма
+              </h1>
+            </td>
+          </tr>
+          <tr>
+            <td class="container">
+              <p class="text breake" style="font-family: arial, 'Open Sans', sans-serif;">
+                Опыт говорит нам, что семантический разбор внешних противодействий требует анализа новых принципов
+                формирования материально-технической и кадровой базы.
+              </p>
+              <p class="text text-second" style="font-family: arial, 'Open Sans', sans-serif;">
+                Задача организации, в особенности же внедрение современных методик, в своём классическом представлении,
+                допускает внедрение глубокомысленных рассуждений. Есть над чем задуматься: элементы политического
+                процесса преданы социально-демократической анафеме! Но интерактивные прототипы заблокированы в рамках
+                своих собственных рациональных ограничений. Сторонники тоталитаризма в науке ограничены исключительно
+                образом мышления.
+              </p>
+            </td>
+          </tr>
+        </table>
+        <table class="table-600" cellpadding="0" cellspacing="0" width="600" bgcolor="#000">
+          <tr>
+            <td class="container">
+              <h2 class="artists-title" style="font-family: arial, 'Open Sans', sans-serif;">
+                Представленные художники
+              </h2>
+            </td>
+          </tr>
+          <tr>
+            <td align="center">
+              <img class="artist-pic" src="https://i.postimg.cc/wMdkbTZp/artists-first.png" alt="Поль Гоген">
+            </td>
+          </tr>
+          <tr>
+            <td class="container">
+              <h3 class="artist-name" style="font-family: arial, 'Open Sans', sans-serif;">Поль Гоген</h3>
+            </td>
+          </tr>
+          <tr>
+            <td class="container">
+              <p class="artist-text" style="font-family: arial, 'Open Sans', sans-serif;">Прежде всего,
+                разбавленное
+                изрядной долей эмпатии, рациональное мышление в значительной степени
+                обусловливает важность укрепления моральных ценностей.</p>
+            </td>
+          </tr>
+
+          <tr>
+            <td align="center">
+              <img class="artist-pic" src="https://i.postimg.cc/XNwLBdB7/artists-second.png" alt="Огюст Ренуар">
+            </td>
+          </tr>
+          <tr>
+            <td class="container">
+              <h3 class="artist-name" style="font-family: arial, 'Open Sans', sans-serif;">Огюст Ренуар</h3>
+            </td>
+          </tr>
+          <tr>
+            <td class="container">
+              <p class="artist-text" style="font-family: arial, 'Open Sans', sans-serif;">А также сделанные на
+                базе
+                интернет-аналитики выводы освещают чрезвычайно интересные особенности картины в целом.</p>
+            </td>
+          </tr>
+
+          <tr>
+            <td align="center">
+              <img class="artist-pic" src="https://i.postimg.cc/xTnRv8LG/artists-third.png" alt="Клод Моне">
+            </td>
+          </tr>
+          <tr>
+            <td class="container">
+              <h3 class="artist-name" style="font-family: arial, 'Open Sans', sans-serif;">Клод Моне</h3>
+            </td>
+          </tr>
+          <tr>
+            <td class="container">
+              <p class="artist-text" style="font-family: arial, 'Open Sans', sans-serif;">
+                Современная методология разработки однозначно фиксирует необходимость системы массового участия.
+              </p>
+            </td>
+          </tr>
+
+          <tr>
+            <td align="center">
+              <img class="artist-pic" src="https://i.postimg.cc/yxXTqCCS/artists-fourth.png" alt="Эдуард Мане">
+            </td>
+          </tr>
+          <tr>
+            <td class="container">
+              <h3 class="artist-name" style="font-family: arial, 'Open Sans', sans-serif;">Эдуард Мане</h3>
+            </td>
+          </tr>
+          <tr>
+            <td class="container">
+              <p class="artist-text" style="font-family: arial, 'Open Sans', sans-serif;">
+                Но социально-экономическое развитие является качественно новой ступенью вывода текущих активов.
+              </p>
+            </td>
+          </tr>
+
+          <tr>
+            <td align="center">
+              <img class="artist-pic" src="https://i.postimg.cc/cJ2hwcc6/artists-fifth.png" alt="Винсент Ван Гог">
+            </td>
+          </tr>
+          <tr>
+            <td class="container">
+              <h3 class="artist-name" style="font-family: arial, 'Open Sans', sans-serif;">Винсент Ван Гог</h3>
+            </td>
+          </tr>
+          <tr>
+            <td class="container">
+              <p class="artist-text" style="font-family: arial, 'Open Sans', sans-serif;">
+                Повседневная практика показывает, что разбавленное изрядной долей эмпатии, рациональное мышление требует
+                анализа поставленных обществом задач.
+              </p>
+            </td>
+          </tr>
+
+        </table>
+        <table cellpadding="0" cellspacing="0" class="table-600" width="600" bgcolor="#ffffff">
+          <tr>
+            <td class="container">
+              <h4 class="not-all" style="font-family: arial, 'Open Sans', sans-serif;">И это ещё не всё!</h4>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <table cellpadding="0" cellspacing="0">
+                <tr>
+                  <td class="container pb-49">
+                    <table cellpadding="0" cellspacing="0">
+                      <tr>
+                        <td align="start" class="block pr-40">
+                          <img class="pb-13" src="https://i.postimg.cc/zG6HjDyX/check-square.png" alt="">
+                          <p class="descr" style="font-family: arial, 'Open Sans', sans-serif;">
+                            Уникальные подборки работ с авторскими рецензиями
+                          </p>
+                        </td>
+                        <td align="start" class="block pr-40">
+                          <img class="pb-13" src="https://i.postimg.cc/mgvh9dnP/calendar.png" alt="">
+                          <p class="descr" style="font-family: arial, 'Open Sans', sans-serif;">
+                            Возможность настроить нашу рассылку под свой личный вкус
+                          </p>
+                        </td>
+                        <td align="start" class="block">
+                          <img class="pb-13" src="https://i.postimg.cc/gk509Smg/arrow-up-circle.png" alt="">
+                          <p class="descr" style="font-family: arial, 'Open Sans', sans-serif;">
+                            У вас есть пожелания и предложения?
+                            Напишите нам в ответ на это письмо!
+                          </p>
+                        </td>
+                      </tr>
+                    </table>
+                <tr>
+                  <td align="center" class="pb-31">
+                    <a href="#">
+                      <button class="btn" style="font-family: arial, 'Open Sans', sans-serif;">
+                        Узнать все подробности
+                      </button>
+                    </a>
+                  </td>
+                </tr>
+            </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+  </table>
+  <table cellpadding="0" cellspacing="0" class="table-600" width="600" bgcolor="#000">
+    <tr>
+      <td align="center" class="footer-mb pt-26 pb-10">
+        <table cellpadding="0" cellspacing="0">
+          <tr>
+            <td align="center">
+              <table cellpadding="0" cellspacing="0">
+                <tr>
+                  <td align="left">
+                    <a href="#">
+                      <img class="footer-img" src="https://i.postimg.cc/FH4HsfkS/vk.png" alt="#">
+                    </a>
+                  </td>
+                  <td align="center">
+                    <a href="#">
+                      <img class="footer-img" src="https://i.postimg.cc/SsJytC3B/instagram.png" alt="#">
+                    </a>
+                  </td>
+                  <td align="right">
+                    <a href="#">
+                      <img src="https://i.postimg.cc/2jg5M9z2/fb.png" alt="#">
+                    </a>
+                  </td>
+                </tr>
+              </table>
+          <tr>
+            <td align="center">
+              <p style="font-family: arial, 'Open Sans', sans-serif;" class="footer-text">
+                Blanchard © 2020 / Все
+                права защищены
+              </p>
+            </td>
+          </tr>
+      </td>
+    </tr>
+  </table>
+  </td>
+  </tr>
+  </table>
+  <table cellpadding="0" cellspacing="0" class="table-600" width="600" bgcolor="#ffffff">
+    <tr>
+      <td align="center">
+        <p class="footer-descr container" style="font-family: arial, 'Open Sans', sans-serif;">Вы можете так же <a
+            href="#" class="link" style="font-family: arial, 'Open Sans', sans-serif;">отписаться от рассылки</a></p>
+      </td>
+    </tr>
+  </table>
+  </td>
+  </tr>
+  </table>
+</body>
+
+</html>
